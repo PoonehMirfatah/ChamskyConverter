@@ -1,0 +1,12 @@
+9
+a b
+A B S S0 T_a T_b X1 X2 X3
+A -> T_aS | T_aX1 | a
+B -> SX2 | T_aS | T_aX1 | T_bT_b | a
+S -> AS | AX3 | SB
+S0 -> AS | AX3 | SB
+T_a -> a
+T_b -> b
+X1 -> T_aA
+X2 -> ST_b
+X3 -> AS
